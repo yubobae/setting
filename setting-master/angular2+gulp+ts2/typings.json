@@ -1,0 +1,8 @@
+{
+  "name": "EnvironmentSetting",
+  "dependencies": {},
+  "globalDependencies": {
+    "jasmine": "registry:dt/jasmine#2.5.2+20170317130948",
+    "node": "registry:env/node#6.0.0+20170213133316"
+  }
+}

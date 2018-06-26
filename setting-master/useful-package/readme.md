@@ -1,0 +1,35 @@
+- picturefill : 디바이스 해상도별 이미지 분기. http://scottjehl.github.io/picturefill/  
+- prismjs : 코드 하이라이트. http://prismjs.com/
+- tiny-cookie : 쿠키작업 도우미. https://www.npmjs.com/package/tiny-cookie  
+- fontfaceobserver : 웹폰트 적용 시 로딩에 따른 지연시간 보완. https://github.com/bramstein/fontfaceobserver
+- loadjs : 다수 js 파일 로딩제어. https://www.npmjs.com/package/loadjs
+- flexboxgrid : flexbox layout 도우미. http://flexboxgrid.com/
+- fg-loadcss : 비동기로 css 로딩
+- lazysizes : 이미지, 스크립트, iframe 초기화 도우미. 이미지 또한 반응형 구성가능 https://github.com/aFarkas/lazysizes
+
+- chalk : console 색상
+- critical : html, css 경로삽입 도우미 https://github.com/addyosmani/critical
+- gulp-autoprefixer : css prefix 자동삽입 https://www.npmjs.com/package/gulp-autoprefixer
+
+- gulp-babel : es5 변환기 https://www.npmjs.com/package/gulp-babel
+- babel-preset-env : gulp-babel 옵션플러그인
+- babel-plugin-transform-runtime : gulp-babel 실시간 컴파일 플러그인
+- gulp-cached : watch시에 유용. gulp.src 파일변경시 캐시를 생성 https://www.npmjs.com/package/gulp-cached
+- gulp-concat : 파일병합 https://www.npmjs.com/package/gulp-concat
+- gulp-cssnano : css mifiny https://github.com/ben-eb/gulp-cssnano
+- gulp-download : 파일 다운로드 https://github.com/ben-eb/gulp-cssnano
+- gulp-favicon : 하나의 이미지로 조건별 파비콘 생성 https://github.com/evilebottnawi/favicons
+- gulp-filter : glob 패턴을 이용해서 파일을 그룹함 https://github.com/sindresorhus/gulp-filter
+- gulp-header : 파일 첫라인에 텍스트 삽입 https://github.com/tracker1/gulp-header
+- gulp-if : pipe 사이에 조건문을 사용함 https://www.npmjs.com/package/gulp-if
+- gulp-imagemin : PNG,JPEG,GIF,SVG 이미지 축소 https://www.npmjs.com/package/gulp-imagemin
+- gulp-load-plugins : package.json의 플러그인을 모두 불러옴 https://github.com/jackfranklin/gulp-load-plugins
+- gulp-newer : gulp.src에 변경파일만 전달 https://github.com/tschaub/gulp-newer
+- gulp-plumber : 오류로 task 종료 시 해당 영역으로 재가동 https://www.npmjs.com/package/gulp-plumber
+- gulp-print : 파일 변경 내역 출력 https://www.npmjs.com/package/gulp-print
+- gulp-rename : 파일 이름 변경 https://github.com/hparra/gulp-rename
+- gulp-replace : 문자 변환 https://github.com/lazd/gulp-replace
+- gulp-rev : 파일명 뒤에 stamp 삽입 https://github.com/sindresorhus/gulp-rev
+- gulp-size : 파일 크기 출력 https://github.com/sindresorhus/gulp-size
+- gulp-streamify : 스트림을 지원하지 않는 플러그인용 https://github.com/nfroidure/gulp-streamify
+- gulp-uglify : 파일 축소https://github.com/terinjokes/gulp-uglify

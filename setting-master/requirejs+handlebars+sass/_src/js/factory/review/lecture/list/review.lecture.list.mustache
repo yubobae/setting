@@ -1,0 +1,55 @@
+<table>
+    <caption>강의 후기 목록</caption>
+    <colgroup>
+        <col width="16%" />
+        <col width="*" />
+        <col width="14%" />
+        <col width="14%" />
+    </colgroup>
+    <thead>
+    <tr>
+        <th scope="col">만족도</th>
+        <th scope="col">제목</th>
+        <th scope="col">작성자</th>
+        <th scope="col">등록일</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#items.length}}
+        {{#items}}
+            <tr>
+                <td class="score">
+                    {{#convertScoreImage}}
+                        {{score}}
+                    {{/convertScoreImage}}
+                </td>
+                <td class="subject">
+                    <button type="button" class="review_view_button">
+                        {{#category}}<span class="category">[{{{ category }}}]</span>{{/category}}
+                        <span>{{{ subject }}}</span>
+                    </button>
+                </td>
+                <td>
+                    {{#nameReduce}}
+                        {{ username }}
+                    {{/nameReduce}}
+                </td>
+                <td>{{ create_at }}</td>
+            </tr>
+            <tr class="review_result">
+                <td colspan="4">
+                    {{#category}}<a href="{{ videolink }}" class="category" target="_blank" title="{{ tooltipText }}">[{{{ category }}}]</a>{{/category}}
+                    {{{ description }}}
+                </td>
+            </tr>
+        {{/items}}
+        {{/items.length}}
+
+        {{^items.length}}
+            <tr class="is_not_result">
+                <td colspan="5">등록된 후기가 없습니다.</td>
+            </tr>
+        {{/items.length}}
+    </tbody>
+</table>
+
